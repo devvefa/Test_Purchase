@@ -82,14 +82,18 @@ public class WebForm extends PageObject {
 
     }
 
-    public void selectRandomProduct(){
+    public String selectRandomProduct(){
         int maxProducts =  this.products.size();
         // get random number
         Random random = new Random();
         int randomProduct = random.nextInt(maxProducts);
         WebElement product= this.products.get(randomProduct);
 
+
+
+        String s =product.getText() ;
         product.click();
+        return s.substring(0,s.indexOf("\n"));
 
 
     }

@@ -1,0 +1,38 @@
+2021-03-13 09:25:55 WARN  TestPurchase:24 - Navigated to correct webpage 
+2021-03-13 09:36:33 WARN  TestPurchase:24 - Navigated to correct webpage 
+2021-03-13 09:42:00 WARN  TestPurchase:30 - Navigated to correct webpage 
+2021-03-13 09:45:14 WARN  TestPurchase:30 - Navigated to correct webpage 
+2021-03-13 10:09:37 WARN  TestPurchase:51 - Logged in 
+2021-03-13 10:17:43 ERROR TestPurchase:55 - cant Log in 
+2021-03-13 10:24:38 ERROR TestPurchase:55 - cant Log in 
+2021-03-13 10:28:10 ERROR TestPurchase:55 - cant Log in 
+2021-03-13 10:28:54 ERROR TestPurchase:55 - cant Log in 
+2021-03-13 10:29:39 ERROR TestPurchase:55 - cant Log in 
+2021-03-13 10:31:54 ERROR TestPurchase:56 - cant Log in 
+2021-03-13 10:39:22 WARN  TestPurchase:53 - Logged in 
+2021-03-13 10:52:42 WARN  TestPurchase:53 - Logged in 
+2021-03-13 10:56:37 WARN  TestPurchase:53 - Logged in 
+2021-03-13 11:03:35 WARN  TestPurchase:54 - Logged in 
+2021-03-13 11:04:22 WARN  TestPurchase:54 - Logged in 
+2021-03-13 11:13:56 WARN  TestPurchase:54 - Logged in 
+2021-03-13 11:14:05 WARN  TestPurchase:73 - Logged in 
+2021-03-13 11:16:54 WARN  TestPurchase:54 - Logged in 
+2021-03-13 11:17:03 WARN  TestPurchase:73 - bilgisayar search is done 
+2021-03-13 11:35:49 WARN  TestPurchase:54 - Logged in 
+2021-03-13 11:35:56 WARN  TestPurchase:72 - bilgisayar search is done 
+2021-03-13 11:38:10 WARN  TestPurchase:54 - Logged in 
+2021-03-13 11:38:18 WARN  TestPurchase:72 - bilgisayar search is done 
+2021-03-13 11:39:18 WARN  TestPurchase:54 - Logged in 
+2021-03-13 11:39:24 WARN  TestPurchase:72 - bilgisayar search is done 
+2021-03-13 12:04:10 WARN  TestPurchase:54 - Logged in 
+2021-03-13 12:04:13 WARN  TestPurchase:72 - bilgisayar search is done 
+2021-03-13 12:05:19 WARN  TestPurchase:54 - Logged in 
+2021-03-13 12:05:22 WARN  TestPurchase:72 - bilgisayar search is done 
+2021-03-13 12:06:32 WARN  TestPurchase:54 - Logged in 
+2021-03-13 12:06:35 WARN  TestPurchase:72 - bilgisayar search is done 
+2021-03-13 12:11:12 WARN  TestPurchase:54 - Logged in 
+2021-03-13 12:11:15 WARN  TestPurchase:72 - bilgisayar search is done 
+2021-03-13 12:11:17 ERROR TestPurchase:92 - bilgisayar search is not done 
+2021-03-13 12:13:46 WARN  TestPurchase:56 - Logged in 
+2021-03-13 12:13:49 WARN  TestPurchase:74 - bilgisayar search is done 
+2021-03-13 12:13:52 WARN  TestPurchase:91 - the selceted product is :  Dragos ATM00000202 Ryzen 5 3500x 8GB Ram 256GB M.2 NVMe 4GB GTX1050Ti 23.8'' Curved Oyun Bilgisayarı
