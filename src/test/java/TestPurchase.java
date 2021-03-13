@@ -39,6 +39,7 @@ public class TestPurchase {
 
    @Test
    public void testUserLogin (){
+
       String expectedTitle = "Hesabım\n" +
               "vefavefa762278";
 
@@ -59,5 +60,26 @@ public class TestPurchase {
       }
 
    }
+
+   @Test
+   public void testCanEnterSearchValue (){
+      testUserLogin();
+
+      driver.manage().window().maximize();
+      webForm.enterSearchQ();
+      webForm.pressSearchButton();
+      try{
+         Assert.assertEquals( driver.getCurrentUrl().toLowerCase(),"https://www.gittigidiyor.com/arama/?k=bilgisayar");
+         logger.warn("bilgisayar search is done " );
+
+      }
+      catch(Throwable pageNavigationError){
+         logger.error("bilgisayar search is not done " );
+
+      }
+
+
+   }
+
 
 }
