@@ -4,6 +4,8 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
+
 import static org.junit.Assert.assertTrue;
 
 public class TestPurchase {
@@ -12,6 +14,7 @@ public class TestPurchase {
     private static final WebDriver driver = new ChromeDriver();
     final static Logger logger = Logger.getLogger(TestPurchase.class);
     WebForm webForm = new WebForm(driver);
+    private  String randomSelectedProduct;
 
 
     public static void main(String[] args) {
@@ -71,9 +74,9 @@ public class TestPurchase {
         webForm.pressSearchButton();
         try {
             Assert.assertEquals(driver.getCurrentUrl().toLowerCase(), "https://www.gittigidiyor.com/arama/?k=bilgisayar");
-            logger.warn("bilgisayar search is done ");
+            logger.warn("bilgisayar search is done and it is in second Page ");
 
-        } catch (Throwable pageNavigationError) {
+        } catch (Throwable e) {
             logger.error("bilgisayar search is not done ");
 
         }
@@ -85,15 +88,39 @@ public class TestPurchase {
     @Test
     public void RandomProduct() {
         testIfEnterSecondPage();
-        String s= webForm.selectRandomProduct();
+        String selectedProduct= webForm.selectRandomProduct();
         try {
-            assertTrue(s.length()>0);
-            logger.warn("the selceted product is :  "+s);
+            assertTrue(selectedProduct.length()>0);
+           this.randomSelectedProduct=selectedProduct;
+            logger.warn("the selceted product is :  "+selectedProduct);
 
         } catch (Throwable pageNavigationError) {
             logger.error("cant select a product ");
 
         }
+
+    }
+    @Test
+    public void addToCart(){
+         RandomProduct();
+        //
+        webForm.pressBuyButton();
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+
+        driver.get("https://www.gittigidiyor.com/sepetim");
+        driver.navigate().refresh();
+        String cartProduct = webForm.getNameCartProduct();
+
+        try {
+
+            Assert.assertEquals(this.randomSelectedProduct.substring(0,15), cartProduct.substring(0,15));
+            logger.warn("adding"+this.randomSelectedProduct+" To cart is done :  ");
+
+        } catch (Throwable e) {
+            logger.error("cant select a product ");
+
+        }
+
     }
 
 

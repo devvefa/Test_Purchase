@@ -36,3 +36,96 @@
 2021-03-13 12:13:46 WARN  TestPurchase:56 - Logged in 
 2021-03-13 12:13:49 WARN  TestPurchase:74 - bilgisayar search is done 
 2021-03-13 12:13:52 WARN  TestPurchase:91 - the selceted product is :  Dragos ATM00000202 Ryzen 5 3500x 8GB Ram 256GB M.2 NVMe 4GB GTX1050Ti 23.8'' Curved Oyun Bilgisayarı
+2021-03-13 12:17:51 WARN  TestPurchase:56 - Logged in 
+2021-03-13 12:17:56 WARN  TestPurchase:74 - bilgisayar search is done 
+2021-03-13 12:17:58 WARN  TestPurchase:91 - the selceted product is :  Turbox ATM00000256 i7 2600 8GB Ram 240GB SSD 4GB GT740 27'' Mon. Oyun Bilgisayarı
+2021-03-13 12:34:28 WARN  TestPurchase:56 - Logged in 
+2021-03-13 12:34:31 WARN  TestPurchase:74 - bilgisayar search is done and it is in second Page 
+2021-03-13 12:34:32 WARN  TestPurchase:91 - the selceted product is :  Turbox ATM00000260 i7 2600 8GB Ram 240GB SSD 4GB GTX750Ti 21.5'' Mon. Oyun Bilgisayarı
+2021-03-13 12:36:19 WARN  TestPurchase:56 - Logged in 
+2021-03-13 12:36:22 WARN  TestPurchase:74 - bilgisayar search is done and it is in second Page 
+2021-03-13 12:36:24 WARN  TestPurchase:91 - the selceted product is :  Turbox ATM00000246 i5 2400 8GB Ram 240GB SSD 4GB GTX750Ti 27'' Mon. Oyun Bilgisayarı
+2021-03-13 12:39:22 WARN  TestPurchase:58 - Logged in 
+2021-03-13 12:39:25 WARN  TestPurchase:76 - bilgisayar search is done and it is in second Page 
+2021-03-13 12:39:26 WARN  TestPurchase:93 - the selceted product is :  Zeiron İ5-650 Turbo 3,46Ghz 8GB 120GB SSD Masaüstü Bilgisayar
+2021-03-13 12:41:24 WARN  TestPurchase:58 - Logged in 
+2021-03-13 12:41:27 WARN  TestPurchase:76 - bilgisayar search is done and it is in second Page 
+2021-03-13 12:41:29 WARN  TestPurchase:93 - the selceted product is :  Intel i5 ( Turbo 3.46 Ghz ) 8GB Ram 240GB SSD Masaüstü Bilgisayar
+2021-03-13 12:49:18 WARN  TestPurchase:59 - Logged in 
+2021-03-13 12:49:21 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 12:49:23 WARN  TestPurchase:95 - the selceted product is :  Dragos ATM00000202 Ryzen 5 3500x 8GB Ram 256GB M.2 NVMe 4GB GTX1050Ti 23.8'' Curved Oyun Bilgisayarı
+2021-03-13 12:50:01 WARN  TestPurchase:59 - Logged in 
+2021-03-13 12:50:05 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 12:50:06 WARN  TestPurchase:95 - the selceted product is :  Dragos ATM00000278 Ryzen 5 3500 16GB Ram 256GB M.2 NVMe 4GB RX550 23.8'' Mon. Oyun Bilgisayarı
+2021-03-13 12:50:09 ERROR TestPurchase:118 - cant select a product 
+2021-03-13 12:51:17 WARN  TestPurchase:59 - Logged in 
+2021-03-13 12:51:21 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 12:51:23 WARN  TestPurchase:95 - the selceted product is :  Zeiron Sn115 İ5-650 3,46Ghz 8GB 240GB + 500GB 18.5 Masaüstü Bilgisayar
+2021-03-13 12:51:25 WARN  TestPurchase:115 - addingZeiron Sn115 İ5-650 3,46Ghz 8GB 240GB + 500GB 18.5 Masaüstü Bilgisayar To cart is done :  
+2021-03-13 12:55:37 WARN  TestPurchase:59 - Logged in 
+2021-03-13 12:55:40 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 12:55:41 WARN  TestPurchase:95 - the selceted product is :  Turbox ATM9919624 i5 2.Gen 8GB Ram 240GB Ssd 2GB GT1030 21.5'' Mon. Oyun Bilgisayarı
+2021-03-13 12:56:19 WARN  TestPurchase:59 - Logged in 
+2021-03-13 12:56:22 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 12:56:23 WARN  TestPurchase:95 - the selceted product is :  Dragos ATM00000279 Ryzen 5 3500 8GB Ram 256GB M.2 NVMe 4GB GTX1050Ti 23.8'' Curved Oyun Bilgisayarı
+2021-03-13 12:56:49 WARN  TestPurchase:59 - Logged in 
+2021-03-13 12:56:52 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 12:56:54 WARN  TestPurchase:95 - the selceted product is :  Turbox ATM00000266 i7 2600 8GB Ram 240GB SSD 4GB GTX750Ti 27'' Mon. Oyun Bilgisayarı
+2021-03-13 12:58:59 WARN  TestPurchase:59 - Logged in 
+2021-03-13 12:59:03 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 12:59:04 WARN  TestPurchase:95 - the selceted product is :  ASUS D641SC-I59500008D i5-9500 8GB 256G DOS Masaüstü Bilgisayar
+2021-03-13 12:59:05 ERROR TestPurchase:118 - cant select a product 
+2021-03-13 13:01:46 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:01:50 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:01:51 WARN  TestPurchase:95 - the selceted product is :  Zeiron Zinc X20 İ5-650 8GB 320GB HDD 4GB 21.5" Masaüstü Bilgisayar
+2021-03-13 13:01:52 ERROR TestPurchase:118 - cant select a product 
+2021-03-13 13:04:32 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:04:35 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:04:37 WARN  TestPurchase:95 - the selceted product is :  Zeiron Sn112 İ5-650 Turbo 3,46Ghz 8GB 240GB 18.5 Masaüstü Bilgisayar
+2021-03-13 13:04:38 ERROR TestPurchase:118 - cant select a product 
+2021-03-13 13:05:10 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:05:14 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:05:15 WARN  TestPurchase:95 - the selceted product is :  Turbox ATM00000257 i7 2600 16GB Ram 240GB SSD 4GB GT740 27'' Mon. Oyun Bilgisayarı
+2021-03-13 13:06:34 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:06:39 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:06:41 WARN  TestPurchase:95 - the selceted product is :  Turbox ATM00000247 i5 2400 16GB Ram 240GB SSD 4GB GTX750Ti 27'' Mon. Oyun Bilgisayarı
+2021-03-13 13:11:43 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:11:46 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:11:48 WARN  TestPurchase:95 - the selceted product is :  Dragos ATM00000279 Ryzen 5 3500 8GB Ram 256GB M.2 NVMe 4GB GTX1050Ti 23.8'' Curved Oyun Bilgisayarı
+2021-03-13 13:11:52 ERROR TestPurchase:118 - cant select a product 
+2021-03-13 13:12:47 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:12:50 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:12:52 WARN  TestPurchase:95 - the selceted product is :  Turbox ATM00000246 i5 2400 8GB Ram 240GB SSD 4GB GTX750Ti 27'' Mon. Oyun Bilgisayarı
+2021-03-13 13:12:53 ERROR TestPurchase:119 - cant select a product 
+2021-03-13 13:13:14 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:13:18 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:13:20 WARN  TestPurchase:95 - the selceted product is :  Zeiron Zn510 İ5-650 3,46Ghz 8GB 500GB HDD Masaüstü Bilgisayar
+2021-03-13 13:13:21 ERROR TestPurchase:119 - cant select a product 
+2021-03-13 13:18:19 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:18:22 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:18:25 WARN  TestPurchase:95 - the selceted product is :  Dragos ATM00000202 Ryzen 5 3500x 8GB Ram 256GB M.2 NVMe 4GB GTX1050Ti 23.8'' Curved Oyun Bilgisayarı
+2021-03-13 13:19:20 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:19:23 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:19:26 WARN  TestPurchase:95 - the selceted product is :  Zeiron RMX80 İ5-3470 16GB 240GB + 1TB GT730 27" Oyun Bilgisayarı
+2021-03-13 13:19:27 ERROR TestPurchase:120 - cant select a product 
+2021-03-13 13:22:55 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:22:59 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:23:01 WARN  TestPurchase:95 - the selceted product is :  Intel Core i5 3470 8GB 240GB SSD 4GB GTX750Ti 23.8'' Full HD Oyun Bilgisayarı
+2021-03-13 13:24:25 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:24:28 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:24:30 WARN  TestPurchase:95 - the selceted product is :  Turbox ATM00000261 i7 2600 16GB Ram 240GB SSD 4GB GTX750Ti 21.5'' Mon. Oyun Bilgisayarı
+2021-03-13 13:25:07 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:25:10 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:25:12 WARN  TestPurchase:95 - the selceted product is :  Zeiron Sn107 İ5-650 3,46Ghz 8GB 120GB SSD 18.5 Masaüstü Bilgisayar
+2021-03-13 13:25:13 ERROR TestPurchase:121 - cant select a product 
+2021-03-13 13:26:21 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:26:26 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:26:28 WARN  TestPurchase:95 - the selceted product is :  Turbox ATM00000264 i7 2600 8GB Ram 240GB SSD 4GB GTX750Ti 23.8'' Curved Oyun Bilgisayarı
+2021-03-13 13:26:30 ERROR TestPurchase:121 - cant select a product 
+2021-03-13 13:27:27 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:27:32 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:27:35 WARN  TestPurchase:95 - the selceted product is :  Dragos ATM00000282 Ryzen 5 3500 16GB Ram 256GB M.2 NVMe 4GB GTX1050Ti 27'' Mon. Oyun Bilgisayarı
+2021-03-13 13:27:53 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:27:58 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:28:01 WARN  TestPurchase:95 - the selceted product is :  Turbox ATM9919624 i5 2.Gen 8GB Ram 240GB Ssd 2GB GT1030 21.5'' Mon. Oyun Bilgisayarı
+2021-03-13 13:28:03 WARN  TestPurchase:118 - addingTurbox ATM9919624 i5 2.Gen 8GB Ram 240GB Ssd 2GB GT1030 21.5'' Mon. Oyun Bilgisayarı To cart is done :  

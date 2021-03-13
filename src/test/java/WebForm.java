@@ -39,15 +39,18 @@ public class WebForm extends PageObject {
     @FindBys( {@FindBy(className = "product-link")  })
     private List<WebElement> products ;
 
-    @FindBy(id = "buy-now")
+    @FindBy(id = "add-to-basket")
     private WebElement buy_button;
 
 
+    @FindBy(className = "title-link")
+    private WebElement product_name_in_cart;
+
     @FindBy(id = "sp-price-lowPrice")
-    WebElement element_price;
+    private WebElement element_price;
 
     @FindBy(className = "total-price")
-    WebElement cart_price;
+    private WebElement cart_price;
 
 
     public WebForm(WebDriver driver) {
@@ -95,6 +98,10 @@ public class WebForm extends PageObject {
         product.click();
         return s.substring(0,s.indexOf("\n"));
 
+
+    }
+    public String getNameCartProduct(){
+        return this.product_name_in_cart.getText();
 
     }
 
