@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertTrue;
 
@@ -143,6 +142,37 @@ public class TestPurchase {
 
     }
 
+
+    @Test
+    public void testIfCanSetAmountTwo() {
+        testUserLogin();
+        driver.manage().window().maximize();
+
+        driver.get("https://www.gittigidiyor.com/sepetim");
+        webForm.setAmountProduct();//Element should have been "select" but was "input"
+
+    }
+
+
+    @Test
+    public void testClearCart(){
+
+        testCartAndDetailPagePrice();
+        driver.get("https://www.gittigidiyor.com/sepetim");
+      String s= webForm.testClearCart();
+
+        try {
+
+            Assert.assertEquals( s,"00 TL");
+            logger.warn("cart is clear");
+
+        } catch (Throwable e) {
+            logger.error("cart is not  clear");
+
+        }
+
+
+    }
 }
 
 

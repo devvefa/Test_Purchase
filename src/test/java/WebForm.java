@@ -2,6 +2,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 import java.util.Random;
@@ -51,6 +52,20 @@ public class WebForm extends PageObject {
 
     @FindBy(className = "total-price")
     private WebElement cart_price;
+
+
+
+
+    @FindBy(className = "amount")
+    private WebElement amount;
+
+    @FindBy(className = "btn-delete")
+    private WebElement delete_product_btn;
+
+
+    @FindBy(className = "new-price-box")
+    private WebElement total_cart_price;
+
 
 
     public WebForm(WebDriver driver) {
@@ -107,10 +122,23 @@ public class WebForm extends PageObject {
         return this.product_name_in_cart.getText();
 
     }
+    public void setAmountProduct()   {
+        Select dropdown = new Select(this.amount);
+        dropdown.selectByVisibleText("2");
+
+
+    }
 
     public float getCartPrice(){
         return convertStringToFloatPrice(this.cart_price.getText());
 
+    }
+    public String testClearCart(){
+
+            this.delete_product_btn.click();
+
+
+        return this.total_cart_price.getText();
     }
 
     public void pressSubmitButton(){

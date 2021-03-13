@@ -180,3 +180,30 @@
 2021-03-13 14:17:27 WARN  TestPurchase:97 - the selceted product is :  Turbox ATM00000260 i7 2600 8GB Ram 240GB SSD 4GB GTX750Ti 21.5'' Mon. Oyun Bilgisayarı
 2021-03-13 14:17:28 WARN  TestPurchase:118 - addingTurbox ATM00000260 i7 2600 8GB Ram 240GB SSD 4GB GTX750Ti 21.5'' Mon. Oyun Bilgisayarı To cart is done :  
 2021-03-13 14:17:29 WARN  TestPurchase:137 - same price in cart and  DetailPage
+2021-03-13 15:04:50 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:05:32 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:06:18 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:07:39 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:09:23 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:12:52 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:20:06 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:22:05 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:25:24 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:28:57 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:30:47 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:32:05 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:32:57 WARN  TestPurchase:59 - Logged in 
+2021-03-13 15:39:46 WARN  TestPurchase:61 - Logged in 
+2021-03-13 15:50:01 WARN  TestPurchase:61 - Logged in 
+2021-03-13 15:52:09 WARN  TestPurchase:61 - Logged in 
+2021-03-13 15:59:21 WARN  TestPurchase:61 - Logged in 
+2021-03-13 16:07:33 WARN  TestPurchase:61 - Logged in 
+2021-03-13 16:12:44 WARN  TestPurchase:61 - Logged in 
+2021-03-13 16:14:14 WARN  TestPurchase:61 - Logged in 
+2021-03-13 16:17:51 WARN  TestPurchase:58 - Logged in 
+2021-03-13 16:19:31 WARN  TestPurchase:58 - Logged in 
+2021-03-13 16:19:41 WARN  TestPurchase:76 - bilgisayar search is done and it is in second Page 
+2021-03-13 16:19:44 WARN  TestPurchase:96 - the selceted product is :  Turbox ATM00000267 i7 2600 16GB Ram 240GB SSD 4GB GTX750Ti 27'' Mon. Oyun Bilgisayarı
+2021-03-13 16:19:45 WARN  TestPurchase:117 - addingTurbox ATM00000267 i7 2600 16GB Ram 240GB SSD 4GB GTX750Ti 27'' Mon. Oyun Bilgisayarı To cart is done :  
+2021-03-13 16:19:45 WARN  TestPurchase:136 - same price in cart and  DetailPage
+2021-03-13 16:19:46 ERROR TestPurchase:170 - cart is not  clear
