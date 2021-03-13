@@ -87,11 +87,11 @@ public class TestPurchase {
         testIfEnterSecondPage();
         String s= webForm.selectRandomProduct();
         try {
-            assertTrue(!s.isEmpty());
+            assertTrue(s.length()>0);
             logger.warn("the selceted product is :  "+s);
 
         } catch (Throwable pageNavigationError) {
-            logger.error("bilgisayar search is not done ");
+            logger.error("cant select a product ");
 
         }
     }
