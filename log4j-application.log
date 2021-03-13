@@ -129,3 +129,54 @@
 2021-03-13 13:27:58 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
 2021-03-13 13:28:01 WARN  TestPurchase:95 - the selceted product is :  Turbox ATM9919624 i5 2.Gen 8GB Ram 240GB Ssd 2GB GT1030 21.5'' Mon. Oyun Bilgisayarı
 2021-03-13 13:28:03 WARN  TestPurchase:118 - addingTurbox ATM9919624 i5 2.Gen 8GB Ram 240GB Ssd 2GB GT1030 21.5'' Mon. Oyun Bilgisayarı To cart is done :  
+2021-03-13 13:56:12 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:56:15 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:56:49 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:56:53 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:56:54 WARN  TestPurchase:97 - the selceted product is :  Dragos ATM00000272 i9 9900 32GB Ram 512GB M.2 NVMe 12GB RTX3060 27'' Curved Oyun Bilgisayarı
+2021-03-13 13:57:45 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:57:48 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:57:49 WARN  TestPurchase:97 - the selceted product is :  Turbox ATM00000255 i7 2600 16GB Ram 240GB SSD 4GB GT740 23.8'' Curved Oyun Bilgisayarı
+2021-03-13 13:58:06 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:58:09 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:59:03 WARN  TestPurchase:59 - Logged in 
+2021-03-13 13:59:06 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 13:59:08 WARN  TestPurchase:97 - the selceted product is :  Turbox ATM910041 i5 2400 8GB Ram 120GB Ssd 1TB Hdd 4GB GTX1050Ti 21.5'' Mon. Oyun Bilgisayarı
+2021-03-13 14:01:02 WARN  TestPurchase:59 - Logged in 
+2021-03-13 14:01:05 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 14:01:07 WARN  TestPurchase:97 - the selceted product is :  Turbox ATM00000262 i7 2600 8GB Ram 240GB SSD 4GB GTX750Ti 23.8'' Mon. Oyun Bilgisayarı
+2021-03-13 14:01:53 WARN  TestPurchase:59 - Logged in 
+2021-03-13 14:01:58 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 14:02:00 WARN  TestPurchase:97 - the selceted product is :  Turbox ATM9917096 i7 920 8GB Ram 120GB Ssd 500GB Hdd 4GB EK. 21.5'' Mon. Masaüstü Bilgisayar
+2021-03-13 14:04:29 WARN  TestPurchase:59 - Logged in 
+2021-03-13 14:04:31 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 14:04:33 WARN  TestPurchase:97 - the selceted product is :  Zeiron Sn112 İ5-650 Turbo 3,46Ghz 8GB 240GB 18.5 Masaüstü Bilgisayar
+2021-03-13 14:04:35 WARN  TestPurchase:119 - addingZeiron Sn112 İ5-650 Turbo 3,46Ghz 8GB 240GB 18.5 Masaüstü Bilgisayar To cart is done :  
+2021-03-13 14:07:10 WARN  TestPurchase:59 - Logged in 
+2021-03-13 14:07:13 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 14:07:15 WARN  TestPurchase:97 - the selceted product is :  Turbox ATM00000247 i5 2400 16GB Ram 240GB SSD 4GB GTX750Ti 27'' Mon. Oyun Bilgisayarı
+2021-03-13 14:07:17 WARN  TestPurchase:119 - addingTurbox ATM00000247 i5 2400 16GB Ram 240GB SSD 4GB GTX750Ti 27'' Mon. Oyun Bilgisayarı To cart is done :  
+2021-03-13 14:07:17 ERROR TestPurchase:142 - is not same price in cart and  DetailPage
+2021-03-13 14:08:44 WARN  TestPurchase:59 - Logged in 
+2021-03-13 14:08:47 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 14:08:49 WARN  TestPurchase:97 - the selceted product is :  Turbox ATM00000260 i7 2600 8GB Ram 240GB SSD 4GB GTX750Ti 21.5'' Mon. Oyun Bilgisayarı
+2021-03-13 14:08:51 WARN  TestPurchase:119 - addingTurbox ATM00000260 i7 2600 8GB Ram 240GB SSD 4GB GTX750Ti 21.5'' Mon. Oyun Bilgisayarı To cart is done :  
+2021-03-13 14:08:51 WARN  TestPurchase:139 - same price in cart and  DetailPage
+2021-03-13 14:13:13 WARN  TestPurchase:59 - Logged in 
+2021-03-13 14:13:16 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 14:13:18 WARN  TestPurchase:97 - the selceted product is :  Dragos ATM00000269 i9 9900 16GB Ram 512GB M.2 NVMe 12GB RTX3060 23.8'' Curved Oyun Bilgisayarı
+2021-03-13 14:13:19 WARN  TestPurchase:119 - addingDragos ATM00000269 i9 9900 16GB Ram 512GB M.2 NVMe 12GB RTX3060 23.8'' Curved Oyun Bilgisayarı To cart is done :  
+2021-03-13 14:13:19 WARN  TestPurchase:138 - same price in cart and  DetailPage
+2021-03-13 14:14:07 WARN  TestPurchase:59 - Logged in 
+2021-03-13 14:14:10 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 14:14:11 WARN  TestPurchase:97 - the selceted product is :  Intel i5 3.Gen 8GB Ram 240GB SSD Masaüstü Ev ve Ofis Bilgisayarı
+2021-03-13 14:15:03 WARN  TestPurchase:59 - Logged in 
+2021-03-13 14:15:07 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 14:15:09 WARN  TestPurchase:97 - the selceted product is :  Dragos ATM00000202 Ryzen 5 3500x 8GB Ram 256GB M.2 NVMe 4GB GTX1050Ti 23.8'' Curved Oyun Bilgisayarı
+2021-03-13 14:15:10 WARN  TestPurchase:119 - addingDragos ATM00000202 Ryzen 5 3500x 8GB Ram 256GB M.2 NVMe 4GB GTX1050Ti 23.8'' Curved Oyun Bilgisayarı To cart is done :  
+2021-03-13 14:15:10 WARN  TestPurchase:138 - same price in cart and  DetailPage
+2021-03-13 14:17:22 WARN  TestPurchase:59 - Logged in 
+2021-03-13 14:17:25 WARN  TestPurchase:77 - bilgisayar search is done and it is in second Page 
+2021-03-13 14:17:27 WARN  TestPurchase:97 - the selceted product is :  Turbox ATM00000260 i7 2600 8GB Ram 240GB SSD 4GB GTX750Ti 21.5'' Mon. Oyun Bilgisayarı
+2021-03-13 14:17:28 WARN  TestPurchase:118 - addingTurbox ATM00000260 i7 2600 8GB Ram 240GB SSD 4GB GTX750Ti 21.5'' Mon. Oyun Bilgisayarı To cart is done :  
+2021-03-13 14:17:29 WARN  TestPurchase:137 - same price in cart and  DetailPage

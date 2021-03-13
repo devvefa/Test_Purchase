@@ -74,15 +74,18 @@ public class WebForm extends PageObject {
         this.searchWord.sendKeys(Q);
     }
 
-    public float getPriceUnite(){
-        String s=this.element_price.getText();
+
+    public float convertStringToFloatPrice( String s){
+
         s=s.replace(".","");
         s=s.replace(",",".");
+        return  Float.parseFloat(s.substring(0,s.indexOf(" ")));
+    }
+
+    public float getPriceDetailPage(){
 
 
-       return Float.parseFloat(s.substring(0,s.indexOf(" ")));
-
-
+        return convertStringToFloatPrice(this.element_price.getText());
     }
 
     public String selectRandomProduct(){
@@ -106,14 +109,7 @@ public class WebForm extends PageObject {
     }
 
     public float getCartPrice(){
-
-        String s=this.cart_price.getText();
-        s=s.replace(".","");
-        s=s.replace(",",".");
-
-
-        return Float.parseFloat(s.substring(0,s.indexOf(" ")));
-
+        return convertStringToFloatPrice(this.cart_price.getText());
 
     }
 

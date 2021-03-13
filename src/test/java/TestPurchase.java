@@ -15,7 +15,7 @@ public class TestPurchase {
     final static Logger logger = Logger.getLogger(TestPurchase.class);
     WebForm webForm = new WebForm(driver);
     private  String randomSelectedProduct;
-
+    private  float detailPagePrice;
 
     public static void main(String[] args) {
 
@@ -89,6 +89,8 @@ public class TestPurchase {
     public void RandomProduct() {
         testIfEnterSecondPage();
         String selectedProduct= webForm.selectRandomProduct();
+
+       this.detailPagePrice=webForm.getPriceDetailPage();
         try {
             assertTrue(selectedProduct.length()>0);
            this.randomSelectedProduct=selectedProduct;
@@ -103,9 +105,8 @@ public class TestPurchase {
     @Test
     public void addToCart(){
          RandomProduct();
-        //
+
         webForm.pressBuyButton();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
         driver.get("https://www.gittigidiyor.com/sepetim");
         driver.navigate().refresh();
@@ -123,6 +124,24 @@ public class TestPurchase {
 
     }
 
+    @Test
+    public void testCartAndDetailPagePrice(){
+        addToCart();
+
+        webForm.getCartPrice();
+
+
+        try {
+
+            Assert.assertEquals(this.detailPagePrice,webForm.getCartPrice(), 0);
+            logger.warn("same price in cart and  DetailPage");
+
+        } catch (Throwable e) {
+            logger.error("is not same price in cart and  DetailPage");
+
+        }
+
+    }
 
 }
 
